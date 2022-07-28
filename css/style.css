@@ -2,6 +2,28 @@
     font-size: 20px;
 }
 
-.carousel-caption.d-none.d-md-block {
-    padding-bottom: 90px;
+.all-courses{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
+
+.slider-image{
+    filter: brightness(50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive slider */
