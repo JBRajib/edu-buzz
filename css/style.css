@@ -2,11 +2,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-
-.working{
-    height: 550px;
-}
-
 @media only screen and (min-width:577px) and (max-width:768px){
     .all-courses{
         grid-template-columns: repeat(1, 1fr);
@@ -14,24 +9,18 @@
 
 }
 
-/* small */
+
+/* responsive */
 @media screen and (max-width: 576px){
     section.company.d-md-none.d-lg-block.py-5 {
         display: none !important;
     }
     
+    body{
+        overflow-x: hidden;
+    }
     .all-courses{
         grid-template-columns: repeat(1, 1fr);
     }
     
 }
-
-
-
-
-
-
-
-
-
-/* responsive slider */
